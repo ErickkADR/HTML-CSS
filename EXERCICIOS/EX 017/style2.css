@@ -1,0 +1,13 @@
+@charset "UTF-8";
+ @font-face {
+    font-family: HuntedNight;
+    src: url(fonts/HauntedNight-Demo.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ h1 {
+    font-family: HuntedNight;
+    font-size: 3em;
+    font-weight: normal;
+ }

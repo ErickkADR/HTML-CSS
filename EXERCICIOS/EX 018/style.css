@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: darkseagreen;
+}
+
+h1#principal {
+  text-align: center;
+  background-color: #60E09C;
+  color: white;
+}
+h1.title {
+    text-align: center;
+    background-color: #5EF77A;
+    color: black
+}
+h2 {
+  color: greenyellow;
+}
+
+h2.basico {
+color: chartreuse;
+}
+
+h2.media {
+color: yellow;
+}
+
+h2.avancado{
+color: red;
+}
+

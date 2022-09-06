@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+  font-family: title;
+  src: url(fontes/idroid.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #84e1ad;
+}
+header {
+  background-image: linear-gradient(to bottom, #3cd781, #195734);
+  margin: 0%;
+  border: 0cm;
+  padding: 0%;
+  height: 100%;
+}
+h1.header-title {
+  font-family: "Bebas Neue";
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2.5rem;
+  padding: 20px 0px;
+  padding-left: 10px;
+  text-indent: 20px;
+  
+}
+p {
+  padding: 5px ;
+  text-indent: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+p.description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  padding: 15px 0px;
+}
+nav {
+  padding: 9px;
+}
+a.nav-link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 6px;
+}
+a.nav-link:hover {
+  background-color: #33a265;
+  color: #0b6d33;
+  border-radius: 5px;
+  text-shadow: none;
+}
+a.link {
+  color: white;
+  text-decoration: none;
+}
+a.link:hover {
+  color: #16ce10;
+}
+main {
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+h1.main-title {
+  color: #183a28;
+  font-family: title;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+h2.main-subtitle {
+  background-image: linear-gradient(to right, #3cd7829c, #ffffff);
+  color: #183a28;
+  font-family: title;
+  padding-left: 15px;
+}
+article {
+  background-color: #81E2AB;
+  margin: 30px;
+  border-radius: 10px;
+  
+}
+p.extra-p {
+  background-color: #2fa866;
+  border-radius: 10px 10px 0px 0px;
+  
+}
+footer {
+  background-image: linear-gradient(to bottom, #3cd781, #195734);
+  font-size: 20px;
+  margin: 0%;
+  border: 0cm;
+  padding: 0%;
+  height: 100%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+p.footer {
+  color: white;
+  text-align: center;
+}
+a.link-p {
+  text-decoration: none;
+  color: #278b54;
+}
+
+a.link-p:hover {
+  background-color: #33a265;
+  color: #ffffff;
+  text-shadow: none;
+  border-radius: 5px;
+}
+div {
+  background-color: #1a5c38;
+  margin: 0px 0px 30px 0px;
+  padding-bottom: 56%;
+  position: relative;
+}
+div > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+img {
+  width: 100%;
+}
+img.img-responsive {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+ul {
+  columns: 2;
+  list-style: none;
+  padding-left: 40px;
+  margin: 25px 0px;
+}
