@@ -15,3 +15,9 @@ th, td {
     border: 1px solid black;
     padding: 10px;
 }
+tbody > tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+tbody > tr:nth-child(odd) {
+    background-color: rgb(248, 240, 255);
+}
