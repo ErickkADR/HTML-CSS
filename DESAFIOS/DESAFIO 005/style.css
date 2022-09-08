@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+table {
+    text-align: center;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(175, 175, 175);
+}
+tbody > tr:nth-child(even){
+    background-color: rgb(219, 219, 219);
+}
+th {
+    background-color: rgba(53, 53, 53, 0.808);
+    color: white;
+}
